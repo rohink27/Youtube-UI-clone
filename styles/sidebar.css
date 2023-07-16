@@ -1,0 +1,37 @@
+.sidebar{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 72px;
+    background-color: white;
+    top: 55px;
+    z-index: 200;
+    padding-top: 5px;
+    
+}
+.sidebar-link{
+    
+    height: 74px;
+    display: flex;
+    justify-content: center; /* Will align vertically now*/
+    align-items: center;/* will align horizontally now*/
+    /* it is reversed of a traditional flexbox*/
+    flex-direction: column;
+    
+}
+.sidebar-link:hover{
+    background-color: rgb(235,235,235);
+    cursor: pointer;
+}
+
+.sidebar-link img{
+    /* this targets all images within sidebar*/
+    height: 24px;
+    margin-bottom: 7px;
+}
+
+.sidebar-link div{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    
+}

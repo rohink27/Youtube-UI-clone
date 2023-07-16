@@ -1,0 +1,98 @@
+
+.thumbnail{
+   width: 100%; /* if no height specified- height readjusts to maintain aspect ratio*/
+    /*height: 300px;*/
+    /*object-fit: cover; /*  cover allows the image to use 300 by 300 space without changing aspect ratio*/
+    /* covers the part of the iamge that does not fit in the space*/
+    /*object fit contain will shrink the imager until it is contained in a 300 by 300 area*/
+    /*object-position: left; /* this positions the image to the top bottom left right or center of the box defined by the */
+    /* height and width*/
+    /*object-fit: contain;
+    object-position: top;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;*/
+    
+
+}
+
+
+/*.video-author, /* comma lets us target both classes
+.video-stats{
+    display: block; /* can chage the type block element to inline block this way*/
+    /* we can control whether the element is on same line or diff line
+}*/
+.video-title{
+    
+    font-size: 14px;
+    font-weight: 500; /* setting the font weight to the 500 font we downloaded*/
+    line-height: 20px; /* adjusts space between lines*/
+    font-family: Roboto,Arial;
+    color: black;
+    text-decoration: none;
+    display: block; /* to set margin at bottom we need to make it 
+    a block element*/
+    margin-bottom: 10px;
+    
+}
+.video-author{
+    font-size: 12px;
+    color: rgb(96,96,96);
+    font-family: Roboto, Arial;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 4px;
+    
+    
+}
+.video-stats{
+    font-size: 12px;
+    color: rgb(96,96,96);
+    
+}
+
+/* block elements take up the entire space in container. para takes all the width in the div*/
+
+
+.profile-pic
+{
+    /*width: 50px;*/
+    width: 80%;/* allows the picture to take up 80%(40 px) of its container*/
+    
+    border-radius: 40px;
+}
+.thumbnail-row{
+    margin-bottom: 12px; /* adding some space below the thumbnail*/
+    position: relative;
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 45px 1fr;
+   
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+   
+}
+.video-time
+{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 8px;
+    right: 5px;
+    font-family: Roboto,Arial;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom:4px;
+    padding-top: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 2px;
+}
+.video-info{
+    margin-left: 2px;
+}

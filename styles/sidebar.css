@@ -35,3 +35,25 @@
     font-size: 10px;
     
 }
+
+@media (min-width:1200px){
+    .sidebar{
+        width: 200px;
+        
+    }
+    .sidebar-link{
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        column-gap: 15px;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .sidebar-link div{
+        font-size: 15px;
+        
+    }
+    .sidebar-link img{
+        margin-left: 10px;
+    }
+    
+}

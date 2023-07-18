@@ -72,10 +72,29 @@
 }
 .video-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
    
+}
+@media (max-width: 800px){
+    /* css code for when screen width is 600pc or less*/
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 11199px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:1200px)
+{
+    .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 .video-time
 {
